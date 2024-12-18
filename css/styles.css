@@ -120,16 +120,48 @@ a{
 .contacts-link:focus {
     color: #404bbf;
 }
-.section{
-    padding: 120px 0;
+.nav-item{
+    
 }
+
+.nav-item-studio::after{
+     margin-top: 27px; 
+    margin: 0 auto; 
+    content: "";
+    border-radius: 2px;
+        width: 48px;
+        height: 4px;
+        background-color: #404bbf;
+        display: flex;
+}
+
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 0;
+   
+
+}
+
+
 /* #region Hero */
+
+
+
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
+    
+        background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url(../images/bg-hero/people-office\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+        background-clip: padding-box;
+    
+
 }
 .hero-container{
-
+    
 align-items: center;
   
     
@@ -178,6 +210,10 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 /* endregion */
 
 /* #region Features */
+
+
+
+
 .feat-container{
 display: flex;
     
@@ -189,7 +225,17 @@ display: flex;
  gap: 24px; 
 
 }
-
+.feat-icons{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+        margin-bottom: 8px; 
+}
  .feat-item {
     width: calc((100% - 72px) / 4);
     
@@ -214,7 +260,15 @@ display: flex;
        
 }
 /* endregion */
+
+
+
 /* #region Our Team */
+
+
+
+
+
 .team {
     background-color: #F4F4FD;
 }
@@ -271,6 +325,24 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+}
+
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    fill: #4d5ae5;
+}
+.social-list-link:hover .social-list-icons,
+.social-list-link:focus .social-list-icons {
+    fill: #31d0aa;
+
+}
+.social-list-icons{
+    fill: #f4f4fd;
 }
 /* endregion */
 
@@ -352,4 +424,17 @@ display: flex;
         color: #f4f4fd;
         
 }
+.soc-ttl{
+    display: inline-block;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+        padding-left: 540px;
+        
+}
+
+
 /* endregion */
