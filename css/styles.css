@@ -168,7 +168,7 @@ a{
     background-color: #2e2f42;
     padding: 188px 0;
     
-        background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url(../images/people-office\ 1.jpg);
+        background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url(../images/people-office.jpg);
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: cover;
@@ -231,10 +231,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 
 
-.feat-container{
-display: flex;
-    
-}
 .features {}
 
 .feat-list {
@@ -288,9 +284,6 @@ display: flex;
 
 .team {
     background-color: #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-container{
     
@@ -305,8 +298,13 @@ display: flex;
         text-transform: capitalize;
         margin-bottom: 72px;
 }
-
+.team-item{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .team-list {
+    
     display: flex;
     gap: 24px;
    
